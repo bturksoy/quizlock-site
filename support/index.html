@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuizLock — Support</title>
+<meta name="description" content="Help with QuizLock: locks that do not appear, Xiaomi permissions, kids mode and the PIN, Premium and promo codes, backups, and how to reach us.">
+<link rel="icon" href="../assets/icon.png">
+<link rel="canonical" href="https://quizlock.btrinteractive.de/support">
+<link rel="stylesheet" href="../assets/pages.css">
+</head>
+<body>
+
+<header class="bar">
+  <div class="bar-in">
+    <img src="../assets/icon.png" alt="">
+    <span class="name">QuizLock</span>
+    <nav>
+      <a href="../">Home</a>
+      <a href="../privacy/">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>Support</h1>
+  <p class="intro">
+    Something not working, or a question the app does not answer? Start here —
+    and if none of this covers it, write to us and we will reply.
+  </p>
+
+  <h2>Locks and permissions</h2>
+
+  <h3>The quiz never appears</h3>
+  <p>Two permissions have to be granted for a lock to show: <strong>Usage
+  Access</strong> (so QuizLock can see how long an app was used) and
+  <strong>display over other apps</strong> (so it can draw the quiz). The
+  dashboard shows a warning card whenever one of them is missing.</p>
+  <p>On Xiaomi, Redmi and POCO phones there is a third, separate one that
+  Android's own settings never mention: <strong>Other permissions → Display
+  pop-up windows while running in background</strong>. Without it the system
+  silently drops the lock screen, and nothing in the app can detect it in
+  advance. QuizLock watches for the failure and then shows you a card that
+  links straight to the right settings page.</p>
+
+  <h3>The lock is late, or misses an app</h3>
+  <p>Usage is sampled periodically rather than continuously — that is what
+  keeps the battery cost invisible — so a lock can arrive a few seconds after
+  the limit is passed. If it never arrives, check that the app is in your
+  monitored list and that battery optimisation is not killing the protection
+  service (Settings → Battery → let QuizLock run in the background).</p>
+
+  <h2>Kids mode</h2>
+
+  <h3>What it changes</h3>
+  <p>Kids mode serves only easy questions from gentle categories (maths,
+  science, geography, vocabulary), removes every ad — banner and rewarded
+  alike — and puts the Settings tab behind your PIN.</p>
+
+  <h3>I forgot the PIN</h3>
+  <p>There is no recovery, on purpose: a reset anyone could trigger would not
+  be a parental control. Reinstalling the app clears the PIN along with
+  everything else stored on the device, so restore a backup first if you have
+  one.</p>
+
+  <h3>Settings opened without asking for the PIN</h3>
+  <p>Fixed in version 1.0.16. Older builds kept the tab unlocked for the rest
+  of the app session after one correct PIN. Update from Play and the gate
+  re-locks every time you leave the tab or the app goes to the background.</p>
+
+  <h2>Premium and promo codes</h2>
+
+  <h3>What Premium includes</h3>
+  <p>No ads anywhere, the exam packs (driving licence and YDS), Google Drive
+  backup, and skipping a lock without watching anything. Monthly or yearly,
+  billed by Google Play.</p>
+
+  <h3>Redeeming a promo code</h3>
+  <p>Open <strong>Premium</strong> in the app and tap <strong>"Have a promo
+  code?"</strong>. Type the code and the Play Store opens with it filled in.
+  Confirm there; Premium switches itself on as soon as Play grants it — you do
+  not need to restart the app, though bringing it back to the foreground is
+  what triggers the check.</p>
+
+  <h3>I paid but Premium is off</h3>
+  <p>Open Premium and tap <strong>Restore purchases</strong>. QuizLock asks
+  Play directly for your active subscriptions, so this fixes a failed sync
+  without any support ticket. If it does not, make sure the device is signed in
+  to the Google account that made the purchase.</p>
+
+  <h3>Cancelling</h3>
+  <p>Subscriptions are managed by Google, not by us: Play Store → your profile
+  → Payments and subscriptions → Subscriptions. Cancelling stops the renewal;
+  Premium stays active until the period you already paid for ends.</p>
+
+  <h2>Data and backups</h2>
+
+  <h3>Moving to a new phone</h3>
+  <p>Everything lives on the device, so a new phone starts fresh unless you
+  bring a backup. Settings → Backup exports a file you can move yourself;
+  Premium adds automatic backup to your own Google Drive. Restore on the new
+  phone before you start using it, since restoring replaces what is there.</p>
+
+  <h3>Deleting everything</h3>
+  <p>Uninstalling removes all local data. A Drive backup has to be deleted
+  separately — from Settings inside the app, or from your Google account. The
+  <a href="../privacy/">privacy policy</a> covers analytics and advertising
+  identifiers.</p>
+
+  <h2>Reporting a bad question</h2>
+  <p>Every question has a report action on the result screen. Reported
+  questions stop being served to you immediately and reach us with the question
+  id, so a wrong answer or a bad translation can be fixed at the source. With
+  212,000+ questions across ten languages, this is genuinely the fastest way
+  they get found.</p>
+
+  <h2>Still stuck?</h2>
+  <div class="card">
+    <p>Email <a href="mailto:btrinteractive@gmail.com">btrinteractive@gmail.com</a>.
+    Telling us your phone model, Android version and the app version (Settings →
+    About) usually saves a round trip.</p>
+  </div>
+</main>
+
+<footer>
+  © 2026 Blackcat Studio · <a href="../">QuizLock</a> ·
+  <a href="../privacy/">Privacy</a>
+</footer>
+
+</body>
+</html>
